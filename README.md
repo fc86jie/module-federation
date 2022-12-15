@@ -20,6 +20,6 @@ Both `app1` and `app2` are independently deployed apps:
 - `app1`: http://localhost:3001
 - `app2`: http://localhost:3002
 
-### 引入 App1 中的远程组件样式丢失？
+### 引入 app1 中的远程组件样式丢失？
 
-App2 中的 build.cssCodeSplit 设置为 false
+app2 中的 vite.config.ts 配置项 build.cssCodeSplit 设置为 false
