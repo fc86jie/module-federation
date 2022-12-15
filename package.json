@@ -1,0 +1,19 @@
+{
+  "name": "module-federation",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev:app1": "pnpm -F app1 dev",
+    "build:app1": "pnpm -F app1 build",
+    "preview:app1": "pnpm -F app1 preview",
+    "dev:app2": "pnpm -F app2 dev",
+    "build:app2": "pnpm -F app2 build",
+    "preview:app2": "pnpm -F app2 preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
